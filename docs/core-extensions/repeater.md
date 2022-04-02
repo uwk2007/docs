@@ -8,25 +8,13 @@ as an array.
 [[toc]]
 :::
 
-::: tip Getting Started
-To understand how to use extensions, you should read this article on [Using Extensions](../guides/basics/using-extensions.md).
- To shortcut the process, you can use the [Redux Build](http://build.redux.io/) site. Please be aware that a working 
+::: tip Notice
+ Please be aware that a working 
  knowledge of PHP and CSS is required to properly use this extension. Should you not be familiar with one or the other 
  (or both), please refer to the following guides to get you started: 
  [Getting Started with PHP](http://www.php.net/manual/en/tutorial.php), 
  [CSS Introduction](http://www.w3schools.com/css/css_intro.asp).
 :::
-
-## Incompatible Fields
-Due to the complexities of this extension, the following Redux fields **WILL NOT** (at this time) function within a 
-repeater.
-
-|Field|Issue|
-|--|--|
-|[Checkbox](../core-fields/checkbox.md#multi-checkbox) (Multi)|Multi-check (options array) not functioning, single check is fine|
-|[Sorter](../core-fields/sorter.md)|Not functioning|
-|[Typography](../core-fields/typography.md)|Will crash the panel, don't try it yet.|
-|[Editor](../core-fields/typography.md)|Works fine, but CSS styling is messed up. (jQuery UI stuff)|
 
 ## Arguments
 |Name|Type|Default|Description|
@@ -65,6 +53,9 @@ Provided the `static` argument is not used, this will limit the number of dynami
 
 #### The `group_values` Argument
 The group values allows you to store all values within the repeater id value inside your global variable. For example, say you had a repeater as denoted below, and you set this to true. To access all the field values within the repeater field, you would need to follow the Example Usage - Grouped Values example denoted below. This, by default, is turned off.
+
+::: danger Due to the unique way Redux stores data when setting this argument to true, `required` funcionality will fail on first load of the options panel.  If you intend to use `required` functionality in your repeater field, this argument is <strong>NOT</strong> recommended.
+:::
 
 #### The `sortable` Argument
 By default, each repeater block is sortable and the values will be returned to the developer in the order of which they are saved. However, should a developer like to disable this feature, they may set this to false and sorting will be enabled to the user.
