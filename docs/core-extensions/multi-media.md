@@ -6,13 +6,12 @@ The Redux Multi Media extension is an improved way to allow your users to upload
 [[toc]]
 :::
 
-::: tip Getting Started
-To understand how to use extensions, you should read this article on [Using Extensions](../guides/basics/using-extensions.md).
- To shortcut the process, you can use the [Redux Build](http://build.redux.io/) site. Please be aware that a working 
- knowledge of PHP and CSS is required to properly use this extension. Should you not be familiar with one or the other 
- (or both), please refer to the following guides to get you started: 
- [Getting Started with PHP](http://www.php.net/manual/en/tutorial.php), 
- [CSS Introduction](http://www.w3schools.com/css/css_intro.asp).
+::: tip Notice
+Please be aware that a working
+knowledge of PHP and CSS is required to properly use this extension. Should you not be familiar with one or the other
+(or both), please refer to the following guides to get you started:
+[Getting Started with PHP](http://www.php.net/manual/en/tutorial.php),
+[CSS Introduction](http://www.w3schools.com/css/css_intro.asp).
 :::
 
 ## Arguments
@@ -58,23 +57,27 @@ for localization purposes, but for flexibility reasons as well.
 ## Example Config
 
 ```php
-Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
-    'id'        => 'opt-multi-media',
-    'type'      => 'multi_media',
-    'title'     => 'Multi Media Selector',
-    'subtitle'  => 'Multi file media selector',
-    'labels'    => array(
-        'upload_file'       => esc_html__('Select File(s)', 'your-textdomain-here'),
-        'remove_image'      => esc_html__('Remove Image', 'your-textdomain-here'),
-        'remove_file'       => esc_html__('Remove', 'your-textdomain-here'),
-        'file'              => esc_html__('File: ', 'your-textdomain-here'),
-        'download'          => esc_html__('Download', 'your-textdomain-here'),
-        'title'             => esc_html__('Multi Media Selector', 'your-textdomain-here'),
-        'button'            => esc_html__('Add or Upload File','your-textdomain-here')
-    ),
-    'library_filter'  => array('gif','jpg','png'),
-    'max_file_upload' => 5
-) );
+Redux::set_field( 
+    'OPT_NAME', 
+    'SECTION_ID', 
+    array(
+        'id'        => 'opt-multi-media',
+        'type'      => 'multi_media',
+        'title'     => 'Multi Media Selector',
+        'subtitle'  => 'Multi file media selector',
+        'labels'    => array(
+            'upload_file'       => esc_html__( 'Select File(s)', 'your-textdomain-here' ),
+            'remove_image'      => esc_html__( 'Remove Image', 'your-textdomain-here' ),
+            'remove_file'       => esc_html__( 'Remove', 'your-textdomain-here' ),
+            'file'              => esc_html__( 'File: ', 'your-textdomain-here' ),
+            'download'          => esc_html__( 'Download', 'your-textdomain-here' ),
+            'title'             => esc_html__( 'Multi Media Selector', 'your-textdomain-here' ),
+            'button'            => esc_html__( 'Add or Upload File','your-textdomain-here' )
+        ),
+        'library_filter'  => array( 'gif','jpg','png' ),
+        'max_file_upload' => 5
+    ) 
+);
 ```
 
 ## Example Usage
@@ -84,7 +87,7 @@ The extension's return value is an array of key/pair values. The key contains th
 ```php
 $data = Redux::get_option( 'OPT_NAME', 'opt-multi-media' );
 
-foreach ($data as $id => $url) {
+foreach ( $data as $id => $url ) {
     echo 'Post ID: ' . $id;
     echo 'URL: '     . $url;
 }
@@ -94,20 +97,20 @@ foreach ($data as $id => $url) {
 ```php
 global $redux_demo;
 
-foreach ($redux_demo['opt-multi-media'] as $id => $url) {
+foreach ( $redux_demo['opt-multi-media'] as $id => $url ) {
     echo 'Post ID: ' . $id;
     echo 'URL: '     . $url;
 }
 ```
 
-## The `getExtendedData` Helper Function
+## The `get_extended_data` Helper Function
 The Multi Media extension includes a helper function to extract a wide variety of data for any post ID passed to it. To 
 take advantage of this function, use the following code (to obtain a post ID, use the code above in conjunction with the 
 code below):
 
 ```php
 // the $id variable assumes a valid post ID.
-$ext_data = ReduxFramework_extension_multi_media::getExtendedData($id)
+$ext_data = ReduxFramework_extension_multi_media::get_extended_data( $id )
 ```
 
 The return value will contain an array of the follow data in key/pair format:
