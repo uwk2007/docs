@@ -91,8 +91,8 @@ select a date specific range at any point in the calendar.
 
 #### When `split` mode is set to `true`:
 
-<span style="display:block;text-align:center">![](./img/dtp_split.png)</span>
-<span style="display:block;text-align:center">![](./img/dtp_nosplit.png)</span>
+<span style="display:block;text-align:center">![](img/dtp_split.png)</span>
+<span style="display:block;text-align:center">![](img/dtp_nosplit.png)</span>
 
 ## Example Config
 ```php
@@ -178,12 +178,12 @@ Format a date into a string value with a specified format. The format can be com
 - **m** – month of year (no leading zero)
 - **mm** – month of year (two digit)
 - **M** – month name short
-- **MM** – month name longy – year (two digit)
+- **MM** – month name long
 - **y** – year (two digit)
 - **yy** – year (four digit)
 - **@** – Unix timestamp (ms since 01/01/1970)
 - **!** – Windows ticks (100ns since 01/01/0001)
-- '**…**' – literal text – single quoteanything else – literal text
+- '**…**' – literal text (use single quotes)
 
 ### Time Formatting
 Format a time into a string value with a specified format.  The format can be combinations of the following:
@@ -200,5 +200,6 @@ Format a time into a string value with a specified format.  The format can be co
 - **c** – Microseconds always with leading 0
 - **t** – a or p for AM/PMTA or P for AM/PM
 - **tt** – am or pm for AM/PMTTAM or PM for AM/PM
-- **z** – Timezone as defined by timezoneListZTimezone in Iso 8601 format (+04:45)
+- **z** – Timezone as defined by timezone
+- **Z** - Timezone in Iso 8601 format (+04:45)
 - '**…**' – Literal text (Uses single quotes)
