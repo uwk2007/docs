@@ -7,8 +7,7 @@ The Redux Social Profiles extension easily allows one to create and display link
 :::
 
 ::: tip Getting Started
-To understand how to use extensions, you should read this article on [Using Extensions](../guides/basics/using-extensions.md).
- To shortcut the process, you can use the [Redux Build](http://build.redux.io/) site. Please be aware that a working 
+Please be aware that a working 
  knowledge of PHP and CSS is required to properly use this extension. Should you not be familiar with one or the other 
  (or both), please refer to the following guides to get you started: 
  [Getting Started with PHP](http://www.php.net/manual/en/tutorial.php), 
@@ -32,7 +31,7 @@ To understand how to use extensions, you should read this article on [Using Exte
 |hint|array||Array containing the `content` and optional `title` arguments for the hint tooltip.  More info|
 
 ## The 'Include' Argument
-The Social Profile extension includes 82 default social profile icons from [FontAwesome 4x](https://fontawesome.com/v4.7.0/).  The icons and their IDs are as follows.
+The Social Profile extension includes 82 default social profile icons from [FontAwesome 6x](https://fontawesome.com/search?m=free&s=solid%2Cregular%2Cbrands).  The icons and their IDs are as follows.
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 
@@ -190,13 +189,8 @@ Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
 ```
 
 ## Example Usage
-### The Social Profiles Widget
-Using the social profiles' widget redefines easy.  In the widget area of WordPress, add the Redux Social Profiles widget 
-to the sidebar of your choice, and set the desired title.  The only icons that will appear in the widget's frontend will 
-be the enabled social profiles.
-
 ### Code
-The extension's return value is an array of key/pair values. The key contains the profile's index key, while the value contains the array of the profiles arguments. It will be necessary to use a for/each loop to extract the values (Please remember to replace `redux_demo` with your own `<a href="/redux-framework/arguments/opt_name" title="opt_name">opt_name</a>` argument).  The following code returns only the saved values.  For this example to have any real value, you'll need to write the appropriate HTML, or use one of the helper functions below.
+The extension's return value is an array of key/pair values. The key contains the profile's index key, while the value contains the array of the profiles arguments. It will be necessary to use a for/each loop to extract the values (Please remember to replace `redux_demo` with your own `opt_name` argument).  The following code returns only the saved values.  For this example to have any real value, you'll need to write the appropriate HTML, or use one of the helper functions below.
 
 ```php
 global $redux_demo;
