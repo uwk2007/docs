@@ -9,28 +9,19 @@ The Redux Google Map extension offers users the ability to search for map locati
 :::
 
 ::: tip Getting Started
-To understand how to use extensions, you should read this article on [Using Extensions](../guides/basics/using-extensions.md).
- To shortcut the process, you can use the [Redux Build](http://build.redux.io/) site. Please be aware that a working 
- knowledge of PHP and CSS is required to properly use this extension. Should you not be familiar with one or the other 
+Please be aware that a working knowledge of PHP and CSS is required to properly use this extension. Should you not be familiar with one or the other 
  (or both), please refer to the following guides to get you started: 
  [Getting Started with PHP](http://www.php.net/manual/en/tutorial.php), 
  [CSS Introduction](http://www.w3schools.com/css/css_intro.asp).
 :::
 
 ::: danger DISCLAIMER
-This extension does not - repeat - does **NOT** output any type of Google map through usage in front-end theme code.  
+This extension does not, repeat, does **NOT** output any type of Google map through usage in front-end theme code.  
 It simply takes the location the user chooses within the map interface and saves the address components, latitude, 
 longitude, and marker information to the database (see Example Usage below).  You - the developer - may then use this 
 information to generate and display maps via the Google Maps API using shortcodes, or any other means appropriate to 
 your theme.
 :::
-
-## Getting Started
-To understand how to use extensions, you should read this article on [Using Extensions](../guides/basics/using-extensions.md). 
-To shortcut the process, you could use the [Redux Builder](https://build.redux.io). Please be aware that a working 
-knowledge of PHP and CSS is required to properly use this field. Should you not be familiar with one or the other 
-(or both), please refer to the following guides to get you started: [Getting Started with PHP](http://www.php.net/manual/en/tutorial.php), 
-[CSS Introduction](http://www.w3schools.com/css/css_intro.asp).
 
 ## Arguments
 |Name|Type|Default|Description|
