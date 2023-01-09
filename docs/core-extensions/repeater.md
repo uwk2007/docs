@@ -62,7 +62,7 @@ By default, each repeater block is sortable and the values will be returned to t
 
 ## Example Config
 ```php
-Redux::setSection( 'OPT_NAME',  array(
+Redux::set_section( 'OPT_NAME',  array(
     'title' => esc_html__('Repeater Field', 'your-textdomain-here' ),
     'icon' => 'el-icon-thumbs-up',
     'fields' => array(

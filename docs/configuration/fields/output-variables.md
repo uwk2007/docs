@@ -63,7 +63,7 @@ LESS, you will need to run the following to properly generate your variables in 
 By so doing, your variables will be properly prefixed with the `@` symbol which is what LESS requires.
 
 ```php
-Redux::setArgs( 'YOUR_OPT_NAME', array( 'compiler_ouput_variables_prefix' => '@' ) );
+Redux::set_args( 'YOUR_OPT_NAME', array( 'compiler_ouput_variables_prefix' => '@' ) );
 ```
 
 

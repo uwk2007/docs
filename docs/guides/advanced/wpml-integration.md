@@ -26,7 +26,7 @@ You'll need to define your own unique variable name for your theme or plugin.
 ```php
 $opt_name = "OPT_NAME"; // TODO - Replace with your opt_name
 $theme = wp_get_theme();
-Redux::setArgs( $opt_name, array(
+Redux::set_args( $opt_name, array(
     'display_name'         => $theme->get( 'Name' ),
     'display_version'      => $theme->get( 'Version' )
 ) );

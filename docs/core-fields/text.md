@@ -52,7 +52,7 @@ your [opt_name](../configuration/global_arguments.md#opt-name) argument.
 
 ```php
 // Using the Redux API
-echo Redux::getOption( 'OPT_NAME', 'FIELD_ID', 'DEFAULT_VALUE' );
+echo Redux::get_option( 'OPT_NAME', 'FIELD_ID', 'DEFAULT_VALUE' );
 
 // Using the global argment
 global $redux_demo; // Same as your opt_name

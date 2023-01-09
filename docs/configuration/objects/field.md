@@ -45,7 +45,7 @@ There are two methods to set a field in Redux. The only difference between these
 while the other is plural.
 
 ::: warning
-If the section you are attaching to doesn't exist, that field will never show. It's much easier to use [Redux::setSection()](section.md#set-section) instead
+If the section you are attaching to doesn't exist, that field will never show. It's much easier to use [Redux::set_section()](section.md#set-section) instead
 to define a [section](section.md) with embedded fields all at once.
 :::
 
@@ -159,6 +159,6 @@ This method allows you to remove a section by ID from Redux. It can be useful to
 ```php
 $section = Redux::get_section( 'OPT_NAME', 'SECTION_ID' );
 $section['title'] = esc_html__( 'A New Section Title', 'redux-framework' );
-Redux::setSection( 'OPT_NAME', $section );
+Redux::set_section( 'OPT_NAME', $section );
 ```
 

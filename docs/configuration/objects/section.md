@@ -97,7 +97,7 @@ Redux::set_section(
 
 ### Redux::set_sections()
 
-Similar to [::setSection()](#set-section), but used to set an unlimited number of sections containing [fields](field.md) at once.
+Similar to [::set_section()](#set-section), but used to set an unlimited number of sections containing [fields](field.md) at once.
 
 *Arguments to pass in order of declaration*
 |Name|Type|Description|
