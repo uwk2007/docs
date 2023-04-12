@@ -47,7 +47,7 @@ export default {
 ## Example Config
 
 ```php
-Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
+Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
     'id'       => 'opt-color',
     'type'     => 'color',
     'title'    => esc_html__('Body Background Color', 'your-textdomain-here'), 

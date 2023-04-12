@@ -44,7 +44,7 @@ export default {
 ## Example Config
 
 ```php
-Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
+Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
     'id'       => 'css_editor',
     'type'     => 'ace_editor',
     'title'    => esc_html__('CSS Code', 'your-project-name'),

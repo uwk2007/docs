@@ -46,7 +46,7 @@ To automatically output the CSS for the box shadow, include the class name of th
 
 ## Example Config
 ```php
-Redux::add_field( 
+Redux::set_field( 
     'OPT_NAME', 
     'SECTION_ID', 
     array(

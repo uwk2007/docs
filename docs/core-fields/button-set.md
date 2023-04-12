@@ -51,7 +51,7 @@ export default {
 #### Single select
 
 ```php
-Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
+Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
     'id'       => 'button-set-single',
     'type'     => 'button_set',
     'title'    => esc_html__('Button Set, Single', 'your-project-name'),
@@ -69,7 +69,7 @@ Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
 
 #### Multi select
 ```php
-Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
+Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
     'id'       => 'button-set-multi',
     'type'     => 'button_set',
     'title'    => esc_html__('Button Set, Single', 'your-project-name'),

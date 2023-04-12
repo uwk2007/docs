@@ -58,7 +58,7 @@ export default {
 #### Image Select Layout
 
 ```php
-Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
+Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
     'id'       => 'opt-layout',
     'type'     => 'image_select',
     'title'    => esc_html__('Main Layout', 'your-textdomain-here'), 
@@ -96,7 +96,7 @@ Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
 #### Image Select Preset
 
 ```php
-Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
+Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
     'id'       => 'opt-presets',
     'type'     => 'image_select', 
     'presets'  => true,

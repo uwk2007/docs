@@ -88,7 +88,7 @@ export default {
 
 ## Example Config
 ```php
-Redux::add_field( 
+Redux::set_field( 
     'OPT_NAME', 
     'SECTION_ID', 
     array(
@@ -109,7 +109,7 @@ Redux::add_field(
 This example will produce a media field that can only find files with the extension denoted. This is useful when you only want specific file types specified for a given field.
 
 ```php
-Redux::add_field( 
+Redux::set_field( 
     'OPT_NAME', 
     'SECTION_ID', 
     array(

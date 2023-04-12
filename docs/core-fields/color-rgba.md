@@ -71,7 +71,7 @@ export default {
 ## Example Config
 
 ```php
-Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
+Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
     'id'        => 'opt-color-rgba',
     'type'      => 'color_rgba',
     'title'     => 'RGBA Color Picker',

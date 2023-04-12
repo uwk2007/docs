@@ -58,7 +58,7 @@ export default {
 
 ## Example Config
 ```php
-Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
+Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
     'id'       => 'opt_dimensions',
     'type'     => 'dimensions',
     'units'    => array('em','px','%'),

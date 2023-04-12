@@ -37,7 +37,7 @@ export default {
 
 ## Example Config
 ```php
-Redux::add_field( 'OPT_NAME', 'SECTION_ID', array(
+Redux::set_field( 'OPT_NAME', 'SECTION_ID', array(
     'id'       => 'opt-gallery',
     'type'     => 'gallery',
     'title'    => esc_html__('Add/Edit Gallery', 'your-textdomain-here'),

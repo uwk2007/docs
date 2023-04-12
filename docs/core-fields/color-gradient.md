@@ -64,7 +64,7 @@ export default {
 
 ## Example Config
 ```php
-Redux::add_field( 
+Redux::set_field( 
     'OPT_NAME', 
     'SECTION_ID', 
     array(
