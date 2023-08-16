@@ -4,7 +4,7 @@ title: "Fields"
 
 # Fields Object
 
-Fields are the lowest level object within Redux. They constitute the [type of fields](../core-fields/) that appear in 
+Fields are the lowest level object within Redux. They constitute the [type of fields](../../core-fields/) that appear in 
 any given [section](section.md). Though individual fields may have custom arguments, they all share a common set of
 default arguments.
 
@@ -13,20 +13,20 @@ default arguments.
 :::
 
 ## Default Arguments
-|Name|Type|Required|Description.|
-|--- |--- |--- |--- |
-|id|string|`true`|The unique identifier of a field. MUST be unique to the [opt_name](../global_arguments.md#opt-name) except when used by the [metaboxes API](../premium/metaboxes.md).|
-|type|string|`true`|Denotes the [field type](../core-fields/). If the field type does not exist a warning will be displayed.|
-|title|string| |The title of the field that will be displayed.|
-|subtitle|string| |Subtitle of the option placed beneath the title.|
-|desc|string| |Text to appear under the field title. HTML is permitted.|
-|default|string| |Default value for the field.|
-|class|string| |Appends any number of classes to the field's class attribute.|
-|customizer_only|bool| |A flag to set this field to [customizer_only](../global_arguments.md#customizer-only) display. This argument will override the [customizer_only](../global_arguments.md#customizer-only) setting at the [sections](section.md) level as well as the [global arguments](../global_arguments.md#customizer-only) level.|
-|output|bool| |A flag to set all [enable CSS output](../fields/output.md) for any fields that support this argument.|
-|compiler|bool| |A flag to set the [compiler hook](../fields/compiler.md) to fire if this field's value is changed. This can override the [compiler](../fields/compiler.md) setting at the [sections](section.md) level.|
-|disabled|bool|`false`| Flag to set disabling on the field.| 
-|hints|array| |Array of attributes to set [hints](../fields/hints.md) object that displays a animated window with more details about this field.|
+|Name|Type|Required| Description.                                                                                                                                                                                                                                                                                                          |
+|--- |--- |--- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|id|string|`true`| The unique identifier of a field. MUST be unique to the [opt_name](../global_arguments.md#opt-name) except when used by the [metaboxes API](../premium/metaboxes.md).                                                                                                                                                 |
+|type|string|`true`| Denotes the [field type](../../core-fields/). If the field type does not exist a warning will be displayed.                                                                                                                                                                                                           |
+|title|string| | The title of the field that will be displayed.                                                                                                                                                                                                                                                                        |
+|subtitle|string| | Subtitle of the option placed beneath the title.                                                                                                                                                                                                                                                                      |
+|desc|string| | Text to appear under the field title. HTML is permitted.                                                                                                                                                                                                                                                              |
+|default|string| | Default value for the field.                                                                                                                                                                                                                                                                                          |
+|class|string| | Appends any number of classes to the field's class attribute.                                                                                                                                                                                                                                                         |
+|customizer_only|bool| | A flag to set this field to [customizer_only](../global_arguments.md#customizer-only) display. This argument will override the [customizer_only](../global_arguments.md#customizer-only) setting at the [sections](section.md) level as well as the [global arguments](../global_arguments.md#customizer-only) level. |
+|output|bool| | A flag to set all [enable CSS output](../fields/output.md) for any fields that support this argument.                                                                                                                                                                                                                 |
+|compiler|bool| | A flag to set the [compiler hook](../fields/compiler.md) to fire if this field's value is changed. This can override the [compiler](../fields/compiler.md) setting at the [sections](section.md) level.                                                                                                               |
+|disabled|bool|`false`| Flag to set disabling on the field.                                                                                                                                                                                                                                                                                   | 
+|hints|array| | Array of attributes to set [hints](../fields/hints.md) object that displays a animated window with more details about this field.                                                                                                                                                                                     |
 
 ::: tip Also See
 - [Using the `compiler` Argument](../fields/compiler.md)
