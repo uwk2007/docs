@@ -19,7 +19,7 @@ custom APIs that will not be included and thus results may be poor. Always load 
 Using the Redux API, loading a single extension or a folder of extensions is simple.
 
 ```php
-Redux::load_extensions( 'OPT_NAME', 'RELATIVE_PATH_TO_DIRECTORY' );
+Redux::set_extensions( 'OPT_NAME', 'RELATIVE_PATH_TO_DIRECTORY' );
 ```
 
 That's it! Redux will recognize your extension(s) for your instance.  You may then begin using their functionality in 

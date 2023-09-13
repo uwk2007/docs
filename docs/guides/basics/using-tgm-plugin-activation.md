@@ -14,7 +14,7 @@ install Redux as a plugin rather than embedding it in your theme or plugin. Why 
 Depending on the market (ThemeForest, WordPress.org), the pain of embedding can be quite intense. As such, this
 is the recommended approach by Redux.
 
-## Download you Custom Class
+## Download your Custom Class
 TO begin, get TMG customized for you. You can acquire it here: [TGM Plugin Activation Download](http://tgmpluginactivation.com/download/)
 
 Be sure to select how you're going to use TGM to match your needs.

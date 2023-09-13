@@ -170,7 +170,6 @@ td:first-child { white-space: nowrap; }
 |Redux::init( $opt_name )|Init Redux object|
 |Redux::instance( $opt_name )|Retrieve ReduxFramework object.|
 |Redux::load()|Code to run at creation in instance.|
-|Redux::loadExtensions( $redux_framework )|Load external extensions.|
 |Redux::load_extensions( $redux_framework )|Load external extensions.|
 |Redux::load_redux( $opt_name )|Load Redux Framework.|
 |Redux::remove_demo()|Callback used by Redux::disable_demo() to remove the demo mode notice from Redux.|
