@@ -17,22 +17,22 @@ as an array.
 :::
 
 ## Arguments
-|Name| Type      | Default                                                                                                                 |Description|
-|--- |-----------|-------------------------------------------------------------------------------------------------------------------------|--- |
-|type| string    | `repeater`                                                                                                              |Value identifying the field type.|
-|id| string    | Unique ID identifying the field. Must be different from all other field IDs.                                            |
-|title| string    | Displays title of the repeatable block of fields.                                                                       |
-|subtitle| string    | Subtitle display of the repeatable block of fields, situated beneath the title.                                         |
-|desc| string    | Description of the repeatable block of fields, appearing beneath the field control.                                     |
-|class| string    | Appends any number of classes to the field's class attribute.                                                           |
-|fields| array     | Array of fields to be within each repeater block.                                                                       |
-|group_values| boolen    | `false`                                                                                                                 |Argument to group all fields within the repeater ID.|
-|item_name| string    | `true`                                                                                                                  |String added after Add/Delete to denote the name of the items you are adding to or deleting. Example: `Delete Fields`, Fields being the item_name.|
-|bind_title| string    | `true`                                                                                                                  |By default the first field will be used as the title for each repeater block. You may also pass in a string denoting an ID to use as the title for each repeater block.|
-|static| int       | Number of static repeater groups to display. This will also disable the add/remove buttons next to each repeater block. |
-|sortable| boolean   | `true`                                                                                                                  |Allow your users to drag/drop repeater blocks and by so doing reorder the results.|
-|limit| int       | 10                                                                                                                      |If `static` is false, this will limit the number of repeater blocks that can be created.|
-|init_empty| bool| false                                                                                                                   |Displays an empty repeater on first run with no accordions. Users will have to click "Add" to add their first accordion.|
+|Name| Type      | Default                                                                                                                 | Description                                                                                                                                                             |
+|--- |-----------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|type| string    | `repeater`                                                                                                              | Value identifying the field type.                                                                                                                                       |
+|id| string    | | Unique ID identifying the field. Must be different from all other field IDs.                                                                                            |
+|title| string    | | Displays title of the repeatable block of fields.                                                                                                                       |
+|subtitle| string    | |Subtitle display of the repeatable block of fields, situated beneath the title.                                         |
+|desc| string    | |Description of the repeatable block of fields, appearing beneath the field control.                                     |
+|class| string    | |Appends any number of classes to the field's class attribute.                                                           |
+|fields| array     | |Array of fields to be within each repeater block.                                                                       |
+|group_values| boolen    | `false`                                                                                                                 | Argument to group all fields within the repeater ID.                                                                                                                    |
+|item_name| string    | `true`                                                                                                                  | String added after Add/Delete to denote the name of the items you are adding to or deleting. Example: `Delete Fields`, Fields being the item_name.                      |
+|bind_title| string    | `true`                                                                                                                  | By default the first field will be used as the title for each repeater block. You may also pass in a string denoting an ID to use as the title for each repeater block. |
+|static| int       | |Number of static repeater groups to display. This will also disable the add/remove buttons next to each repeater block. |
+|sortable| boolean   | `true`                                                                                                                  | Allow your users to drag/drop repeater blocks and by so doing reorder the results.                                                                                      |
+|limit| int       | 10                                                                                                                      | If `static` is false, this will limit the number of repeater blocks that can be created.                                                                                |
+|init_empty| bool| false                                                                                                                   | Displays an empty repeater on first run with no accordions. Users will have to click "Add" to add their first accordion.                                                |
 
 ::: tip Also See
 - [Using the `compiler` Argument](../configuration/fields/compiler.md)

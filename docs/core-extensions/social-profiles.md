@@ -15,20 +15,20 @@ Please be aware that a working
 :::
 
 ## Arguments
-|Name|Type|Default|Description|
-|--- |--- |--- |--- |
-|type|string|`social_profiles`|Value identifying the field type.|
-|id|string||Unique ID identifying the field. Must be different from all other field IDs.|
-|title|string||Displays title of the field.|
-|subtitle|string||Subtitle display of the field, situated beneath the title.|
-|desc|string||Description of the field, appearing beneath the field control.|
-|class|string||Appends any number of classes to the field's class attribute.|
-|compiler|bool|`false`|Flag to run the compiler hook.  More info|
-|widget_msg|string|Go to the Widgets page to add the Redux Social Widget to any active widget area.|Message to display at the top of the field to inform the user of the extensions widget option.  Use the %s variable to include a link to the widgets area.|
-|show_widget_msg|bool|`true`|Flag to determine if the widget message is to displayed, or not.|
-|include|array||Optional.  Array of default icons to show, instead of the entire default array.  See "The Include Argument" below.|
-|icons|array||Optional.  Array of arrays specifying custom profiles not included in the default set, or to edit existing profiles.  See "Adding/Editing Additional Icons" below.|
-|hint|array||Array containing the `content` and optional `title` arguments for the hint tooltip.  More info|
+|Name|Type| Default                                                                          |Description|
+|--- |--- |----------------------------------------------------------------------------------|--- |
+|type|string| `social_profiles`                                                                |Value identifying the field type.|
+|id|string|                                                                                  |Unique ID identifying the field. Must be different from all other field IDs.|
+|title|string|                                                                                  |Displays title of the field.|
+|subtitle|string|                                                                                  |Subtitle display of the field, situated beneath the title.|
+|desc|string|                                                                                  |Description of the field, appearing beneath the field control.|
+|class|string|                                                                                  |Appends any number of classes to the field's class attribute.|
+|compiler|bool| `false`                                                                          |Flag to run the compiler hook.  More info|
+|widget_msg|string| Go to the Widgets page to add the Redux Social Widget to any active widget area. |Message to display at the top of the field to inform the user of the extensions widget option.  Use the %s variable to include a link to the widgets area.|
+|show_widget_msg|bool| `true`                                                                           |Flag to determine if the widget message is to displayed, or not.|
+|include|array|                                                                                  |Optional.  Array of default icons to show, instead of the entire default array.  See "The Include Argument" below.|
+|icons|array|                                                                                  |Optional.  Array of arrays specifying custom profiles not included in the default set, or to edit existing profiles.  See "Adding/Editing Additional Icons" below.|
+|hint|array|                                                                                  |Array containing the `content` and optional `title` arguments for the hint tooltip.  More info|
 
 ## The 'Include' Argument
 The Social Profile extension includes 82 default social profile icons from [FontAwesome 6x](https://fontawesome.com/search?m=free&s=solid%2Cregular%2Cbrands).  The icons and their IDs are as follows.
