@@ -3,7 +3,7 @@ old
 vuepress2
 node_modules
 packages
-yarn.lock
+# yarn.lock
 docs/examples
 docs/.vuepress/dist
 yarn.error.log
