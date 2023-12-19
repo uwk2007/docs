@@ -45,7 +45,6 @@ module.exports = ctx => ({
                     '/guides/': getSidebar('Guides', '/guides/'),
                     '/configuration/': getSidebar('Configuration', '/configuration/'),
                     '/core-fields/': getSidebar('Fields', '/core-fields/'),
-                    '/premium/': getSidebar('Premium / Pro', '/premium/'),
                     '/faq/': getSidebar('FAQ', '/faq/'),
                     '/core-extensions/': getSidebar('Core Extensions', '/core-extensions/')
                 },
