@@ -16,10 +16,6 @@ module.exports = [
 		link: '/core-extensions/',
 	},
 	{
-		text: 'Pro / Premium',
-		link: '/premium/'
-	},
-	{
 		text: 'Learn More',
 		items: [
 			{
