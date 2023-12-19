@@ -176,7 +176,6 @@ td:first-child { white-space: nowrap; }
 |Redux::remove_field( $opt_name, $id )|Removes an option panel field.|
 |Redux::remove_section( $opt_name, $id, $fields )|Remove option panel by ID.|
 |Redux::set_args( $opt_name, $args )|Sets option panel global arguments.|
-|Redux::set_developer( $opt_name, $arg )|Set's developer key for premium services.|
 |Redux::set_extensions( $opt_name, $path, $force )|Sets all extensions in path.|
 |Redux::set_field( $opt_name, $section_id, $field )|Creates an option panel field and adds to a section.|
 |Redux::set_fields( $opt_name, $section_id, $fields )|Create multiple fields of the option panel and apply to a section.|

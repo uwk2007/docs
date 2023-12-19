@@ -1,4 +1,4 @@
-# USer Metaboxes <Badge text="enhancement" type="warn"/>
+# User Metaboxes <Badge text="enhancement" type="warn"/>
 
 If you are used the ReduxFramework declaration arrays, you know Redux User Metaboxes. They're one and the same! The only difference is a parent array. We'll go through a few examples to get you up and running. Please know, you MUST have a Redux global options page for user metaboxes taxonomy to work. They're interconnected. You can, however, make a fake options panel, and hide it from the admin menu. 
 
