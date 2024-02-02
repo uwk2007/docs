@@ -23,7 +23,6 @@ The Text field accepts any form of text and optionally validates the text before
 
 ::: tip Also See
 - [Global Field Arguments](../configuration/fields/arguments.md)
-- [Using the `attributes` Argument](../configuration/fields/attributes.md)
 - [Using the `data` Argument](../configuration/fields/data.md)
 - [Using the `compiler` Argument](../configuration/fields/compiler.md)
 - [Using the `output_variables` Argument](../configuration/fields/output-variables.md)

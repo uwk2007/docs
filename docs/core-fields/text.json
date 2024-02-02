@@ -48,14 +48,6 @@
       "description": "",
       "order": 20
     },
-    "attributes": {
-      "name": "attributes",
-      "title": "Attributes",
-      "formatter": "keyvalue",
-      "newElementButtonLabel": "+ Add Attribute",
-      "type": "object",
-      "order": 25
-    },
     "data": {
       "type": "custom-object",
       "name": "data",

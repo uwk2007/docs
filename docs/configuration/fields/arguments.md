@@ -31,7 +31,6 @@ These arguments may not be supported by all fields, and will be denoted on each 
 
 |Name|Type|Description|
 |--- |--- |--- |
-|[attributes](../fields/attributes.md)|array|Array of attributes to append to the field for fields that support the attributes.|
 |[compiler](../fields/compiler.md)|bool/array|Flag to run the compiler hook or array of CSS selectors to pass dynamic CSS to the compiler hook.|
 |[data](../fields/data.md)|string/array||
 |[output](../fields/output.md)|array|Array of CSS selectors to dynamically generate CSS. Only works on supported fields types.|
@@ -39,7 +38,6 @@ These arguments may not be supported by all fields, and will be denoted on each 
 |[validate](../fields/validate.md)|string/array||
 
 ::: tip Also See
-- [Using the `attributes` Argument](../fields/attributes.md)
 - [Using the `compiler` Argument](../fields/compiler.md)
 - [Using the `data` Argument](../fields/data.md)
 - [Using the `output` Argument](../fields/output.md)

@@ -56,13 +56,6 @@
       "default": false,
       "order": 25
     },
-    "attributes": {
-      "name": "attributes",
-      "formatter": "keyvalue",
-      "title": "Attributes",
-      "type": "object",
-      "order": 30
-    },
     "permissions": {
       "type": "input",
       "inputType": "text",
